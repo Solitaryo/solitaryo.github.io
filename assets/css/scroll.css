@@ -1,0 +1,17 @@
+.horizontal-scroll-wrapper {
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    margin:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+
+  .horizontal-scroll-wrapper > section {
+    display:block;
+    transform:rotate(90deg);
+    transform-origin: right top;
+  }
